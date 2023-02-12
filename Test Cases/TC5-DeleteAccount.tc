@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC5-DeleteAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1cfe20d-a4e2-4c96-b7b5-46c1301e816a</testCaseGuid>
+</TestCaseEntity>
