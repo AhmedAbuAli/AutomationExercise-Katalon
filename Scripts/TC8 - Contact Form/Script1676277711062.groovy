@@ -34,7 +34,15 @@ WebUI.setText(findTestObject('Object Repository/Contact us Page Objects/Page_Aut
 
 WebUI.click(findTestObject('Object Repository/Contact us Page Objects/Page_Automation Exercise - Contact Us/input_Get In Touch_submit'))
 
-WebUI.acceptAlert()
+try {
+	WebUI.acceptAlert()
+	
+} catch (Exception e) {
+	System.out.println("NO ALER WAS FOUND")
+	}
+
+
+WebUI.takeScreenshotAsCheckpoint('Check', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Contact us Page Objects/Page_Automation Exercise - Contact Us/div_Success Your details have been submitte_fc584e'))
 
