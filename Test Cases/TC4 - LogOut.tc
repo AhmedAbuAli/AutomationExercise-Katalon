@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC4-LogOut</name>
+   <name>TC4 - LogOut</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c0f7d9d3-d212-4b18-ac35-7534275630ee</testCaseGuid>

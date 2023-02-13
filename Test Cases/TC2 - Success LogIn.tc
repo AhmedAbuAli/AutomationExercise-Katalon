@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Validate Login Functionality with a valid email and password </description>
-   <name>TC2-Success LogIn</name>
+   <name>TC2 - Success LogIn</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b5a55b4e-0a72-4a0a-aab0-602b6c3c8bd1</testCaseGuid>
