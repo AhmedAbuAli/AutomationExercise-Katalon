@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/Check Cart Page Objects/Page_Automation Exercise - Checkout/a_Cart'))
 
+WebUI.takeScreenshotAsCheckpoint('Check Cart', FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/Check Cart Page Objects/Page_Automation Exercise - Checkout/a_Proceed To Checkout'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Check Cart Page Objects/Page_Automation Exercise - Checkout/div_Home  CheckoutAddress DetailsYour deliv_0c8b36'))
